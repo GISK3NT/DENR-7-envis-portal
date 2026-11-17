@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="forestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4D3A"/>
+      <stop offset="100%" stop-color="#0F2E1F"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C8A05E"/>
+      <stop offset="100%" stop-color="#9D7B3E"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E86C1"/>
+      <stop offset="100%" stop-color="#1B4F72"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer shield ring (brass) -->
+  <path d="M128 12
+           C192.5 12 244 50 244 128
+           C244 206 128 244 128 244
+           C128 244 12 206 12 128
+           C12 50 63.5 12 128 12 Z
+           M128 24
+           C75.5 24 32 53.5 32 128
+           C32 202.5 128 232 128 232
+           C128 232 224 202.5 224 128
+           C224 53.5 180.5 24 128 24 Z"
+        fill="url(#brassGrad)"/>
+
+  <!-- Inner shield field (forest green) -->
+  <path d="M128 28
+           C180 28 220 56 220 128
+           C220 200 128 226 128 226
+           C128 226 36 200 36 128
+           C36 56 76 28 128 28 Z"
+        fill="url(#forestGrad)"/>
+
+  <!-- Central mountain silhouette -->
+  <path d="M128 168
+           L88 96
+           L128 52
+           L168 96
+           Z"
+        fill="#0D2318" opacity="0.6"/>
+
+  <!-- Mountain highlight -->
+  <path d="M128 52
+           L108 96
+           L128 168
+           L148 96
+           Z"
+        fill="none" stroke="rgba(200,160,94,0.35)" stroke-width="1.5"/>
+
+  <!-- Three stylized leaves (forest cover) -->
+  <g fill="#2E7D3E">
+    <!-- Left leaf -->
+    <path d="M74 92
+             C66 86 60 78 64 70
+             C68 62 78 58 86 64
+             C94 70 92 82 84 88
+             C78 92 74 92 74 92 Z"/>
+    <!-- Center leaf (larger) -->
+    <path d="M128 78
+             C116 70 106 60 112 52
+             C118 44 134 40 144 48
+             C154 56 148 70 138 78
+             C130 84 128 78 128 78 Z"/>
+    <!-- Right leaf -->
+    <path d="M182 92
+             C190 86 196 78 192 70
+             C188 62 178 58 170 64
+             C162 70 164 82 172 88
+             C178 92 182 92 182 92 Z"/>
+  </g>
+
+  <!-- Water waves (coastal/marine) -->
+  <g fill="none" stroke="url(#waterGrad)" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M56 180 Q100 172 128 180 T200 180"/>
+    <path d="M64 196 Q100 188 128 196 T192 196" stroke-width="1.5" opacity="0.6"/>
+    <path d="M72 212 Q100 206 128 212 T184 212" stroke-width="1" opacity="0.45"/>
+  </g>
+
+  <!-- Brass accent bar at bottom -->
+  <rect x="56" y="224" width="144" height="4" rx="2" fill="url(#brassGrad)" opacity="0.9"/>
+
+  <!-- Three stars (Philippines / Region VII) -->
+  <g fill="url(#brassGrad)">
+    <polygon points="104,232 106,238 112,238 108,242 110,248 104,244 98,248 100,242 96,238 102,238"/>
+    <polygon points="128,230 130,236 136,236 132,240 134,246 128,242 122,246 124,240 120,236 126,236" transform="scale(1.15 1.15) translate(-2 -2)"/>
+    <polygon points="152,232 154,238 160,238 156,242 158,248 152,244 146,248 148,242 144,238 150,238"/>
+  </g>
+</svg>

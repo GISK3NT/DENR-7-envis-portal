@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="forestGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4D3A"/>
+      <stop offset="100%" stop-color="#0F2E1F"/>
+    </linearGradient>
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C8A05E"/>
+      <stop offset="100%" stop-color="#9D7B3E"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E86C1"/>
+      <stop offset="100%" stop-color="#1B4F72"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer shield ring -->
+  <path d="M32 3
+           C48 3 61 12 61 32
+           C61 52 32 61 32 61
+           C32 61 3 52 3 32
+           C3 12 16 3 32 3 Z
+           M32 6
+           C18 6 10 14 10 32
+           C10 50 32 58 32 58
+           C32 58 54 50 54 32
+           C54 14 46 6 32 6 Z"
+        fill="url(#brassGrad)"/>
+
+  <!-- Inner shield field -->
+  <path d="M32 7
+           C44 7 53 14 53 32
+           C53 50 32 56 32 56
+           C32 56 11 50 11 32
+           C11 14 20 7 32 7 Z"
+        fill="url(#forestGrad)"/>
+
+  <!-- Central mountain -->
+  <path d="M32 42
+           L22 24
+           L32 13
+           L42 24
+           Z"
+        fill="#0D2318" opacity="0.6"/>
+
+  <!-- Three leaves -->
+  <g fill="#2E7D3E">
+    <path d="M18.5 23
+             C16.5 21.5 15 19.5 16 17.5
+             C17 15.5 19.5 14.5 21.5 16
+             C23.5 17.5 23 19 21 20.5
+             C19.5 21.5 18.5 21.5 18.5 21.5 Z"/>
+    <path d="M32 19.5
+             C29 17.5 26.5 15 28 13
+             C29.5 11 34 10 36 12
+             C38.5 14 37 16 34.5 19.5
+             C32.5 21 32 19.5 32 19.5 Z"/>
+    <path d="M45.5 23
+             C47.5 21.5 49 19.5 48 17.5
+             C47 15.5 44.5 14.5 42.5 16
+             C40.5 17.5 41 19 43 20.5
+             C44.5 21.5 45.5 21.5 45.5 21.5 Z"/>
+  </g>
+
+  <!-- Water waves -->
+  <g fill="none" stroke="url(#waterGrad)" stroke-width="0.8" stroke-linecap="round" opacity="0.85">
+    <path d="M14 45 Q32 43 32 45 T50 45"/>
+    <path d="M16 49 Q32 47 32 49 T48 49" stroke-width="0.6" opacity="0.6"/>
+  </g>
+
+  <!-- Three stars -->
+  <g fill="url(#brassGrad)" transform="scale(0.45) translate(10 20)">
+    <polygon points="26,58 26.5,59.5 28,59.5 27,60 27.5,61 26,60 24.5,61 25,60 24,59.5 25.5,59.5"/>
+    <polygon points="32,57.5 32.5,59 34,59 33,59.5 33.5,60.5 32,60 30.5,60.5 31,59.5 30,59 31.5,59" transform="scale(1.15 1.15) translate(-0.5 -0.5)"/>
+    <polygon points="38,58 38.5,59.5 40,59.5 39,60 39.5,61 38,60 36.5,61 37,60 36,59.5 37.5,59.5"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment / secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Local database (request queue, accounts, audit log)
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+
+# Requester attachments (contains personal data)
+data/request-attachments/*
+!data/request-attachments/.gitkeep
+
+# Private source data - NEVER commit, NEVER serve wholesale
+shapefiles/*
+!shapefiles/.gitkeep
+private_data/*
+!private_data/.gitkeep
+
+# Generated preview artifacts
+public/previews/*
+!public/previews/.gitkeep
+
+.DS_Store
+Thumbs.db

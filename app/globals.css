@@ -1,0 +1,399 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Field Atlas — design tokens
+   ========================================================================== */
+
+:root {
+  --paper: #f7f5ee;
+  --paper-raised: #fffefb;
+  --ink: #0b1712;
+  --line: #e0dbc9;
+  --line-strong: #cfc8b2;
+  --pine: #0b1f19;
+  --brass: #b9852e;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    @apply bg-sand-50 text-ink antialiased;
+    font-feature-settings: "kern", "liga", "calt";
+    background-image:
+      radial-gradient(1200px 620px at 78% -8%, rgba(39, 74, 59, 0.07), transparent 62%),
+      radial-gradient(900px 520px at 6% 4%, rgba(185, 133, 46, 0.06), transparent 60%);
+    background-repeat: no-repeat;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Numbers line up in tables, stat rails and metadata rows. */
+  table,
+  dl,
+  .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::selection {
+    @apply bg-forest-900 text-sand-50;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-forest-600 ring-offset-2 ring-offset-sand-50;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-gov {
+    @apply mx-auto w-full max-w-[1240px] px-5 sm:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-3xl px-5 sm:px-8;
+  }
+
+  /* ---- Buttons ---------------------------------------------------------- */
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-[10px] px-4 py-2.5 text-sm font-semibold
+      transition duration-200 ease-out
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest-600 focus-visible:ring-offset-2
+      active:translate-y-px
+      disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-forest-900 text-sand-50 shadow-[0_1px_0_rgba(255,255,255,.14)_inset,0_10px_24px_-16px_rgba(11,31,25,.9)]
+      hover:-translate-y-0.5 hover:bg-forest-800 active:translate-y-0;
+  }
+  .btn-secondary {
+    @apply btn border border-forest-200 bg-white/70 text-forest-900
+      hover:-translate-y-0.5 hover:border-forest-300 hover:bg-white active:translate-y-0;
+  }
+  .btn-ghost {
+    @apply btn text-forest-800 hover:bg-forest-100/70;
+  }
+  .btn-danger {
+    @apply btn bg-red-800 text-white hover:bg-red-900;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  .btn-link {
+    @apply inline-flex items-center gap-1.5 text-sm font-semibold text-forest-800 underline-offset-4
+      transition hover:text-forest-950 hover:underline;
+  }
+
+  /* ---- Surfaces --------------------------------------------------------- */
+  .card {
+    @apply rounded-card border border-sand-200 shadow-card;
+    background-color: var(--paper-raised);
+  }
+  .card-flat {
+    @apply rounded-card border border-sand-200;
+    background-color: var(--paper-raised);
+  }
+  .card-hover {
+    @apply transition duration-300 ease-out hover:-translate-y-1 hover:border-forest-300 hover:shadow-lift;
+  }
+  .hairline {
+    @apply border-t border-sand-200;
+  }
+
+  /* ---- Badges / labels -------------------------------------------------- */
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-[6px] border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em];
+  }
+  .badge-forest {
+    @apply badge border-forest-200 bg-forest-50 text-forest-800;
+  }
+  .badge-sand {
+    @apply badge border-sand-200 bg-sand-100 text-sand-800;
+  }
+  .badge-outline {
+    @apply badge border-sand-300 bg-transparent text-forest-700;
+  }
+  .badge-warn {
+    @apply badge border-brass-200 bg-brass-50 text-brass-700;
+  }
+  .badge-danger {
+    @apply badge border-red-200 bg-red-50 text-red-800;
+  }
+
+  /* ---- Forms ------------------------------------------------------------ */
+  .field-label {
+    @apply mb-1.5 block text-[11px] font-semibold uppercase tracking-[0.12em] text-forest-700;
+  }
+  .field-input {
+    @apply w-full rounded-[10px] border border-sand-300 bg-white px-3 py-2.5 text-sm text-ink
+      placeholder:text-forest-500/55
+      focus:border-forest-500 focus:outline-none focus:ring-4 focus:ring-forest-100;
+  }
+  .field-hint {
+    @apply mt-1.5 text-xs text-forest-600;
+  }
+  .field-error {
+    @apply mt-1.5 text-xs font-medium text-red-700;
+  }
+
+  .section-kicker {
+    @apply text-[11px] font-semibold uppercase tracking-[0.2em] text-brass-600;
+  }
+
+  .eyebrow-rule {
+    @apply flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.2em] text-forest-600;
+  }
+  .eyebrow-rule::before {
+    content: "";
+    @apply block h-px w-8 bg-brass-500;
+  }
+
+  /* ---- Long-form legal / documentation ---------------------------------- */
+  .doc {
+    @apply space-y-6 text-[15px] leading-7 text-forest-900/85;
+  }
+  .doc h2 {
+    @apply mt-10 text-xl font-semibold text-forest-950;
+  }
+  .doc p {
+    @apply max-w-prose;
+  }
+  .doc ul {
+    @apply max-w-prose list-disc space-y-1.5 pl-5;
+  }
+
+  /* ---- Tables ----------------------------------------------------------- */
+  .admin-table {
+    @apply w-full border-collapse text-sm;
+  }
+  .admin-table th {
+    @apply border-b border-sand-200 px-3 py-2.5 text-left text-[10px] font-semibold uppercase tracking-[0.12em] text-forest-600;
+  }
+  .admin-table td {
+    @apply border-b border-sand-100 px-3 py-3 align-top;
+  }
+  .admin-table tbody tr {
+    @apply transition-colors hover:bg-sand-50/70;
+  }
+}
+
+@layer utilities {
+  .grain-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E");
+  }
+
+  .topo-field {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320'%3E%3Cg fill='none' stroke='%23132E24' stroke-opacity='.16' stroke-width='1'%3E%3Cpath d='M160 34c42 0 76 34 76 62s-30 52-76 52-76-24-76-52 34-62 76-62z'/%3E%3Cpath d='M160 62c28 0 50 20 50 38s-22 34-50 34-50-16-50-34 22-38 50-38z'/%3E%3Cpath d='M160 90c14 0 25 9 25 19s-11 16-25 16-25-6-25-16 11-19 25-19z'/%3E%3Cpath d='M40 244c34 0 62 20 62 38s-28 30-62 30'/%3E%3Cpath d='M282 232c-25 0-45 16-45 30s20 26 45 26'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 320px 320px;
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    animation: fa-reveal 0.7s var(--ease-out) forwards;
+    animation-delay: var(--d, 0ms);
+  }
+
+  .underline-grow {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 0.3s var(--ease-out);
+  }
+  .underline-grow:hover {
+    background-size: 100% 1px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes fa-reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MapLibre adjustments */
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+.maplibregl-canvas {
+  outline: none;
+}
+.maplibregl-ctrl-group {
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 8px 20px -12px rgba(11, 31, 25, 0.5) !important;
+}
+
+/* ==========================================================================
+   DENR Logo System — Official Seal with Professional Motion
+   The seal geometry never changes: motion is scale, glow and sheen only.
+   ========================================================================== */
+
+.denr-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  isolation: isolate;
+}
+
+.denr-logo:focus-visible {
+  outline: none;
+}
+
+.denr-logo:focus-visible .denr-seal-focus-ring {
+  opacity: 1;
+  animation: denr-focus-pulse 2s ease-in-out infinite;
+}
+
+@keyframes denr-focus-pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.denr-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.denr-lockup:focus-visible {
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow:
+    0 0 0 2px #132e24,
+    0 0 0 4px #f7f5ee;
+}
+
+.denr-logo-sm {
+  width: 28px;
+  height: 28px;
+}
+.denr-logo-md {
+  width: 40px;
+  height: 40px;
+}
+.denr-logo-lg {
+  width: 56px;
+  height: 56px;
+}
+.denr-logo-xl {
+  width: 80px;
+  height: 80px;
+}
+
+.denr-lockup-sm {
+  --lockup-size: 28px;
+}
+.denr-lockup-md {
+  --lockup-size: 40px;
+}
+.denr-lockup-lg {
+  --lockup-size: 56px;
+}
+.denr-lockup-xl {
+  --lockup-size: 80px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .denr-logo *,
+  .denr-logo::before,
+  .denr-logo::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media print {
+  .denr-logo,
+  .denr-lockup {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* Map feature popups */
+.maplibregl-popup.envis-popup .maplibregl-popup-content {
+  padding: 13px 15px 12px;
+  border: 1px solid #e3ddd0;
+  border-radius: 11px;
+  box-shadow: 0 14px 34px -14px rgba(11, 31, 25, 0.45);
+  background: #ffffff;
+}
+
+.maplibregl-popup.envis-popup .maplibregl-popup-tip {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.maplibregl-popup.envis-popup .maplibregl-popup-close-button {
+  top: 4px;
+  right: 5px;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5b6b63;
+}
+
+.maplibregl-popup.envis-popup .maplibregl-popup-close-button:hover {
+  background: #f1efe9;
+  color: #14352a;
+}

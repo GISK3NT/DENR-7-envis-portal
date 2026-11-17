@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "brand": "DENR",
+    "fullName": "Department of Environment and Natural Resources",
+    "tagline": "Republic of the Philippines",
+    "industry": "government-environmental",
+    "colours": {
+      "primary": "#1B5E20",
+      "accent": "#D9A441",
+      "background": "#F5F0E1",
+      "text": "#1A1A2E"
+    }
+  },
+  "concepts": [
+    {
+      "name": "Evolutionary Refresh",
+      "symbol": "denr-seal-master.svg",
+      "lockup": "denr-seal-master.svg",
+      "idea": "Preserve the official DENR seal equity while delivering a production-ready SVG with authoritative motion for digital dashboards.",
+      "rationale": [
+        "Keeps all official seal recognition — forest green border, gold accents, three stars for Luzon/Visayas/Mindanao, tree canopy metaphor",
+        "Converts live text to paths for reliable rendering across all platforms",
+        "Two-colour system (forest + gold) works in 1-colour, reversed, embroidery, and screen",
+        "Slow 10s breathing animation conveys institutional stability and permanence",
+        "Respects prefers-reduced-motion for accessibility compliance"
+      ]
+    }
+  ],
+  "recommendation": "Evolutionary Refresh",
+  "mockups": [
+    "browser-tab",
+    "dashboard-header",
+    "mobile-app-icon",
+    "official-document",
+    "signage",
+    "letterhead"
+  ]
+}

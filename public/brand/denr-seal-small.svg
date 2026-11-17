@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DENR Seal — Small Size Variant (for favicon, app icon, 16-32px)
+  Simplified geometry that reads clearly at tiny sizes.
+  Stars enlarged to remain visible at 16px.
+-->
+<svg
+  width="256"
+  height="256"
+  viewBox="0 0 256 256"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+  fill="none"
+>
+  <title id="title">DENR Logo</title>
+  <desc id="desc">Department of Environment and Natural Resources logo mark. Forest green circle with gold tree canopy, trunk, and three stars representing Luzon, Visayas, and Mindanao.</desc>
+
+  <!-- Background circle — brand forest -->
+  <circle cx="128" cy="128" r="128" fill="#1B5E20" />
+
+  <!-- Central mark — simplified for small sizes -->
+  <g transform="translate(128, 128) scale(0.75)">
+    <!-- Stylized tree/canopy — works at 16px -->
+    <path
+      d="M0 -50
+         C-30 -40, -50 -15, -45 15
+         C-40 35, -20 50, 0 45
+         C20 50, 40 35, 45 15
+         C50 -15, 30 -40, 0 -50 Z"
+      fill="#D9A441"
+    />
+    <!-- Trunk -->
+    <rect x="-5" y="15" width="10" height="35" rx="2" fill="#D9A441" />
+    <!-- Three stars — enlarged for visibility at small sizes -->
+    <g fill="#1B5E20">
+      <!-- Top star (centered) - larger -->
+      <polygon points="0,-62 3,-52 13,-52 5,-45 7,-35 0,-40 -7,-35 -5,-45 -13,-52 -3,-52" />
+      <!-- Bottom left star - larger -->
+      <polygon points="-38,-18 -35,-8 -25,-8 -31,-2 -29,8 -38,3 -47,8 -45,-2 -51,-8 -41,-8" />
+      <!-- Bottom right star - larger -->
+      <polygon points="38,-18 35,-8 25,-8 31,-2 29,8 38,3 47,8 45,-2 51,-8 41,-8" />
+    </g>
+  </g>
+</svg>
