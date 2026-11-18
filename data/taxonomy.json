@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": "admin-boundaries",
+      "en": "Administrative Boundaries",
+      "fil": "Hangganang Administratibo",
+      "blurb": { "en": "Regional, provincial, city/municipal and barangay units.", "fil": "Rehiyon, probinsya, lungsod/munisipalidad at barangay." }
+    },
+    {
+      "id": "land-forest",
+      "en": "Land Classification & Forest Cover",
+      "fil": "Klasipikasyon ng Lupa at Takip ng Kagubatan",
+      "blurb": { "en": "Forestland vs A&D, forest cover, and land-cover change.", "fil": "Forestland vs A&D, takip ng gubat, at pagbabago ng land cover." }
+    },
+    {
+      "id": "water",
+      "en": "Watersheds & Water Resources",
+      "fil": "Watershed at Yaman ng Tubig",
+      "blurb": { "en": "Watersheds, river basins and critical catchments.", "fil": "Watershed, river basin at kritikal na catchment." }
+    },
+    {
+      "id": "protected-areas",
+      "en": "Protected Areas",
+      "fil": "Mga Protektadong Lugar",
+      "blurb": { "en": "NIPAS and locally declared protected areas.", "fil": "NIPAS at mga protektadong lugar na lokal na idineklara." }
+    },
+    {
+      "id": "tenure",
+      "en": "Tenure Instruments",
+      "fil": "Mga Instrumento ng Tenure",
+      "blurb": { "en": "CBFM, CADT/CALT, grazing and special-use agreements.", "fil": "CBFM, CADT/CALT, grazing at special-use agreement." }
+    },
+    {
+      "id": "coastal",
+      "en": "Coastal & Marine",
+      "fil": "Baybaying at Dagat",
+      "blurb": { "en": "Mangroves, seagrass, coral and marine protected areas.", "fil": "Bakawan, seagrass, coral at marine protected area." }
+    },
+    {
+      "id": "environment",
+      "en": "Environmental Quality",
+      "fil": "Kalidad ng Kapaligiran",
+      "blurb": { "en": "Air and water quality monitoring stations.", "fil": "Mga istasyon ng pagmamanman ng hangin at tubig." }
+    }
+  ],
+  "provinces": [
+    { "id": "bohol", "en": "Bohol", "fil": "Bohol", "code": "0712" },
+    { "id": "cebu", "en": "Cebu", "fil": "Cebu", "code": "0722" },
+    { "id": "negros-oriental", "en": "Negros Oriental", "fil": "Negros Oriental", "code": "0746" },
+    { "id": "siquijor", "en": "Siquijor", "fil": "Siquijor", "code": "0761" }
+  ],
+  "region": {
+    "code": "VII",
+    "en": "Central Visayas",
+    "fil": "Gitnang Kabisayaan"
+  }
+}
