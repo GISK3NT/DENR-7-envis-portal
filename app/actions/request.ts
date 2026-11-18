@@ -1,9 +1,10 @@
-"use server";
+﻿"use server";
 
 import { mkdir, writeFile } from "node:fs/promises";
 import { headers } from "next/headers";
 import path from "node:path";
 import { getDataset } from "@/lib/datasets";
+import { storagePath } from "@/lib/storage";
 import { createAccessRequest, markRequestNotified, writeAudit } from "@/lib/repo";
 import { formatDateTime } from "@/lib/format";
 import { isMailConfigured, sendMail } from "@/lib/mailer";
@@ -82,7 +83,7 @@ export async function submitAccessRequest(
     let attachment_path: string | null = null;
 
     if (attachment) {
-      const dir = path.join(process.cwd(), "data", "request-attachments");
+      const dir = storagePath("data", "request-attachments");
       await mkdir(dir, { recursive: true });
       const stamp = Date.now().toString(36);
       const ext = safeExt(attachment.name || "");
@@ -165,3 +166,4 @@ export async function submitAccessRequest(
     return { status: "error", errors: { form: "generic" }, values };
   }
 }
+

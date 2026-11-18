@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { getCurrentUser } from "@/lib/auth";
 import { getAccessRequest } from "@/lib/repo";
+import { storagePath, storageRoot } from "@/lib/storage";
 
 /**
  * Serve a requester-uploaded supporting document to signed-in staff only.
@@ -15,7 +16,7 @@ import { getAccessRequest } from "@/lib/repo";
  * - filename sanitised to strip quotes, CR/LF and control characters
  */
 
-const ATTACHMENT_DIR = path.join(process.cwd(), "data", "request-attachments");
+const attachmentDir = () => storagePath("data", "request-attachments");
 
 const CONTENT_TYPES: Record<string, string> = {
   ".pdf": "application/pdf",
@@ -55,8 +56,8 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
 
   // Containment check that cannot be fooled by sibling-prefix paths
   // (e.g. .../request-attachments-evil).
-  const full = path.resolve(process.cwd(), request.attachment_path);
-  const rel = path.relative(ATTACHMENT_DIR, full);
+  const full = path.resolve(storageRoot(), request.attachment_path);
+  const rel = path.relative(attachmentDir(), full);
   if (rel === "" || rel.startsWith("..") || path.isAbsolute(rel)) {
     return NextResponse.json({ error: "Invalid path" }, { status: 400 });
   }

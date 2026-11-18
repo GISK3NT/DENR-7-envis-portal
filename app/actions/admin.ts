@@ -22,6 +22,7 @@ import {
   verifyPassword,
 } from "@/lib/auth";
 import { checkLimit, clearLimit, clientIp, recordHit } from "@/lib/rate-limit";
+import { storagePath } from "@/lib/storage";
 import {
   countAdmins,
   createUser,
@@ -155,7 +156,7 @@ async function readOutgoingAttachment(
     return { error: "The reply attachment is larger than 15 MB. Send a download link instead." };
   }
 
-  const dir = path.join(process.cwd(), "private_data", "outbox");
+  const dir = storagePath("private_data", "outbox");
   await mkdir(dir, { recursive: true });
   const filename = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}${ext}`;
   const bytes = Buffer.from(await file.arrayBuffer());
@@ -335,7 +336,7 @@ export async function resendDecisionEmailAction(formData: FormData): Promise<voi
   if (request.reply_attachment_path && request.reply_attachment_name) {
     try {
       const { readFile } = await import("node:fs/promises");
-      const bytes = await readFile(path.join(process.cwd(), request.reply_attachment_path));
+      const bytes = await readFile(storagePath(request.reply_attachment_path));
       attachment = { name: request.reply_attachment_name, bytes };
     } catch {
       attachment = null;

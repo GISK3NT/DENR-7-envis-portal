@@ -10,7 +10,8 @@
 import { DatabaseSync } from "node:sqlite";
 import path from "node:path";
 
-const DB_PATH = process.env.ENVIS_DB ?? path.join(process.cwd(), "data", "envis.sqlite");
+const STORAGE_ROOT = process.env.ENVIS_STORAGE_ROOT ?? process.cwd();
+const DB_PATH = process.env.ENVIS_DB ?? path.join(STORAGE_ROOT, "data", "envis.sqlite");
 const db = new DatabaseSync(DB_PATH);
 const clear = process.argv.includes("--clear");
 

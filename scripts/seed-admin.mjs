@@ -13,7 +13,8 @@ import { mkdirSync } from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 
-const DB_PATH = process.env.ENVIS_DB ?? path.join(process.cwd(), "data", "envis.sqlite");
+const STORAGE_ROOT = process.env.ENVIS_STORAGE_ROOT ?? process.cwd();
+const DB_PATH = process.env.ENVIS_DB ?? path.join(STORAGE_ROOT, "data", "envis.sqlite");
 
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS users (

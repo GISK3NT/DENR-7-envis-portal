@@ -1,6 +1,7 @@
 import { DatabaseSync } from "node:sqlite";
 import { mkdirSync } from "node:fs";
 import path from "node:path";
+import { storagePath } from "./storage";
 
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS users (
@@ -64,7 +65,7 @@ CREATE TABLE IF NOT EXISTS audit_log (
 `;
 
 function resolveDbPath(): string {
-  return process.env.ENVIS_DB ?? path.join(process.cwd(), "data", "envis.sqlite");
+  return process.env.ENVIS_DB ?? storagePath("data", "envis.sqlite");
 }
 
 declare global {
