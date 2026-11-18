@@ -26,9 +26,15 @@ shapefiles/*
 private_data/*
 !private_data/.gitkeep
 
-# Generated preview artifacts
+# Generated preview artifacts (generalized, publishable)
 public/previews/*
 !public/previews/.gitkeep
+!public/previews/manifest.json
+!public/previews/*.geojson
+!public/previews/thumbs/
+!public/previews/thumbs/*.webp
+!public/previews/lcm-display/
+!public/previews/lcm-display/*.geojson
 
 .DS_Store
 Thumbs.db
