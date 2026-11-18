@@ -35,7 +35,7 @@
     "preview": {
       "file": "/previews/10k-map-index-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/10k-map-index-r7.svg"
+      "thumb": "/previews/thumbs/10k-map-index-r7.webp"
     },
     "fields": [
       {
@@ -135,7 +135,7 @@
     "preview": {
       "file": "/previews/18-major-river-basins-ph.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/18-major-river-basins-ph.svg"
+      "thumb": "/previews/thumbs/18-major-river-basins-ph.webp"
     },
     "fields": [
       {
@@ -210,7 +210,7 @@
     "preview": {
       "file": "/previews/apsa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/apsa-r7.svg"
+      "thumb": "/previews/thumbs/apsa-r7.webp"
     },
     "fields": [
       {
@@ -360,7 +360,7 @@
     "preview": {
       "file": "/previews/arboretum-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/arboretum-r7.svg"
+      "thumb": "/previews/thumbs/arboretum-r7.webp"
     },
     "fields": [
       {
@@ -516,7 +516,7 @@
     "preview": {
       "file": "/previews/asian-waterbird-census-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/asian-waterbird-census-r7.svg"
+      "thumb": "/previews/thumbs/asian-waterbird-census-r7.webp"
     },
     "fields": [
       {
@@ -687,7 +687,7 @@
     "preview": {
       "file": "/previews/bams-ccpl.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/bams-ccpl.svg"
+      "thumb": "/previews/thumbs/bams-ccpl.webp"
     },
     "fields": [
       {
@@ -817,7 +817,7 @@
     "preview": {
       "file": "/previews/bantayan-island-wilderness-area.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/bantayan-island-wilderness-area.svg"
+      "thumb": "/previews/thumbs/bantayan-island-wilderness-area.webp"
     },
     "fields": [
       {
@@ -947,7 +947,7 @@
     "preview": {
       "file": "/previews/bantayan-proposed-zoning.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/bantayan-proposed-zoning.svg"
+      "thumb": "/previews/thumbs/bantayan-proposed-zoning.webp"
     },
     "fields": [
       {
@@ -1027,7 +1027,7 @@
     "preview": {
       "file": "/previews/barangay-boundaries-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/barangay-boundaries-r7.svg"
+      "thumb": "/previews/thumbs/barangay-boundaries-r7.webp"
     },
     "fields": [
       {
@@ -1183,7 +1183,7 @@
     "preview": {
       "file": "/previews/bdfe-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/bdfe-r7.svg"
+      "thumb": "/previews/thumbs/bdfe-r7.webp"
     },
     "fields": [
       {
@@ -1402,7 +1402,7 @@
     "preview": {
       "file": "/previews/bohol-protected-areas.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/bohol-protected-areas.svg"
+      "thumb": "/previews/thumbs/bohol-protected-areas.webp"
     },
     "fields": [
       {
@@ -1613,7 +1613,7 @@
     "preview": {
       "file": "/previews/cadt-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cadt-r7.svg"
+      "thumb": "/previews/thumbs/cadt-r7.webp"
     },
     "fields": [
       {
@@ -1754,7 +1754,7 @@
     "preview": {
       "file": "/previews/camotes-island-pls.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/camotes-island-pls.svg"
+      "thumb": "/previews/thumbs/camotes-island-pls.webp"
     },
     "fields": [
       {
@@ -1855,7 +1855,7 @@
     "preview": {
       "file": "/previews/cebu-firelines.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cebu-firelines.svg"
+      "thumb": "/previews/thumbs/cebu-firelines.webp"
     },
     "fields": [
       {
@@ -2284,7 +2284,7 @@
     "preview": {
       "file": "/previews/cebu-protected-areas.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cebu-protected-areas.svg"
+      "thumb": "/previews/thumbs/cebu-protected-areas.webp"
     },
     "fields": [
       {
@@ -2465,7 +2465,7 @@
     "preview": {
       "file": "/previews/city-municipal-boundaries-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/city-municipal-boundaries-r7.svg"
+      "thumb": "/previews/thumbs/city-municipal-boundaries-r7.webp"
     },
     "fields": [
       {
@@ -2615,7 +2615,7 @@
     "preview": {
       "file": "/previews/classified-caves-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/classified-caves-r7.svg"
+      "thumb": "/previews/thumbs/classified-caves-r7.webp"
     },
     "fields": [
       {
@@ -2855,7 +2855,7 @@
     "preview": {
       "file": "/previews/climate-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/climate-r7.svg"
+      "thumb": "/previews/thumbs/climate-r7.webp"
     },
     "fields": [
       {
@@ -2950,7 +2950,7 @@
     "preview": {
       "file": "/previews/clonal-nurseries-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/clonal-nurseries-r7.svg"
+      "thumb": "/previews/thumbs/clonal-nurseries-r7.webp"
     },
     "fields": [
       {
@@ -3110,7 +3110,7 @@
     "preview": {
       "file": "/previews/cmemp-bdfe-po-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cmemp-bdfe-po-r7.svg"
+      "thumb": "/previews/thumbs/cmemp-bdfe-po-r7.webp"
     },
     "fields": [
       {
@@ -3340,7 +3340,7 @@
     "preview": {
       "file": "/previews/cmemp-water-quality-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cmemp-water-quality-r7.svg"
+      "thumb": "/previews/thumbs/cmemp-water-quality-r7.webp"
     },
     "fields": [
       {
@@ -3550,7 +3550,7 @@
     "preview": {
       "file": "/previews/corals-cmemp-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/corals-cmemp-r7.svg"
+      "thumb": "/previews/thumbs/corals-cmemp-r7.webp"
     },
     "fields": [
       {
@@ -3710,7 +3710,7 @@
     "preview": {
       "file": "/previews/critical-watersheds-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/critical-watersheds-r7.svg"
+      "thumb": "/previews/thumbs/critical-watersheds-r7.webp"
     },
     "fields": [
       {
@@ -3865,7 +3865,7 @@
     "preview": {
       "file": "/previews/cutting-permit-areas-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cutting-permit-areas-r7.svg"
+      "thumb": "/previews/thumbs/cutting-permit-areas-r7.webp"
     },
     "fields": [
       {
@@ -4035,7 +4035,7 @@
     "preview": {
       "file": "/previews/cutting-permits-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/cutting-permits-r7.svg"
+      "thumb": "/previews/thumbs/cutting-permits-r7.webp"
     },
     "fields": [
       {
@@ -4201,7 +4201,7 @@
     "preview": {
       "file": "/previews/denr-field-offices-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/denr-field-offices-r7.svg"
+      "thumb": "/previews/thumbs/denr-field-offices-r7.webp"
     },
     "fields": [
       {
@@ -4341,7 +4341,7 @@
     "preview": {
       "file": "/previews/earthquake-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/earthquake-r7.svg"
+      "thumb": "/previews/thumbs/earthquake-r7.webp"
     },
     "fields": [
       {
@@ -4412,7 +4412,7 @@
     "preview": {
       "file": "/previews/engp-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/engp-r7.svg"
+      "thumb": "/previews/thumbs/engp-r7.webp"
     },
     "fields": [
       {
@@ -4642,7 +4642,7 @@
     "preview": {
       "file": "/previews/epsa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/epsa-r7.svg"
+      "thumb": "/previews/thumbs/epsa-r7.webp"
     },
     "fields": [
       {
@@ -4791,7 +4791,7 @@
     "preview": {
       "file": "/previews/erosion-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/erosion-r7.svg"
+      "thumb": "/previews/thumbs/erosion-r7.webp"
     },
     "fields": [
       {
@@ -4886,7 +4886,7 @@
     "preview": {
       "file": "/previews/faultline-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/faultline-r7.svg"
+      "thumb": "/previews/thumbs/faultline-r7.webp"
     },
     "fields": [
       {
@@ -4992,7 +4992,7 @@
     "preview": {
       "file": "/previews/flood-susceptibility-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/flood-susceptibility-r7.svg"
+      "thumb": "/previews/thumbs/flood-susceptibility-r7.webp"
     },
     "fields": [
       {
@@ -5113,7 +5113,7 @@
     "preview": {
       "file": "/previews/forest-cover-2003-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/forest-cover-2003-r7.svg"
+      "thumb": "/previews/thumbs/forest-cover-2003-r7.webp"
     },
     "fields": [
       {
@@ -5213,7 +5213,7 @@
     "preview": {
       "file": "/previews/forest-cover-2020-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/forest-cover-2020-r7.svg"
+      "thumb": "/previews/thumbs/forest-cover-2020-r7.webp"
     },
     "fields": [
       {
@@ -5303,7 +5303,7 @@
     "preview": {
       "file": "/previews/forest-ranger-stations-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/forest-ranger-stations-r7.svg"
+      "thumb": "/previews/thumbs/forest-ranger-stations-r7.webp"
     },
     "fields": [
       {
@@ -5453,7 +5453,7 @@
     "preview": {
       "file": "/previews/geology-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/geology-r7.svg"
+      "thumb": "/previews/thumbs/geology-r7.webp"
     },
     "fields": [
       {
@@ -5628,7 +5628,7 @@
     "preview": {
       "file": "/previews/inland-wetlands-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/inland-wetlands-r7.svg"
+      "thumb": "/previews/thumbs/inland-wetlands-r7.webp"
     },
     "fields": [
       {
@@ -5908,7 +5908,7 @@
     "preview": {
       "file": "/previews/ipa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/ipa-r7.svg"
+      "thumb": "/previews/thumbs/ipa-r7.webp"
     },
     "fields": [
       {
@@ -6053,7 +6053,7 @@
     "preview": {
       "file": "/previews/ipsa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/ipsa-r7.svg"
+      "thumb": "/previews/thumbs/ipsa-r7.webp"
     },
     "fields": [
       {
@@ -6227,7 +6227,7 @@
     "preview": {
       "file": "/previews/landcover-2010-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/landcover-2010-r7.svg"
+      "thumb": "/previews/thumbs/landcover-2010-r7.webp"
     },
     "fields": [
       {
@@ -6331,7 +6331,7 @@
     "preview": {
       "file": "/previews/landcover-2015-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/landcover-2015-r7.svg"
+      "thumb": "/previews/thumbs/landcover-2015-r7.webp"
     },
     "fields": [
       {
@@ -6426,7 +6426,7 @@
     "preview": {
       "file": "/previews/landcover-2020-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/landcover-2020-r7.svg"
+      "thumb": "/previews/thumbs/landcover-2020-r7.webp"
     },
     "fields": [
       {
@@ -6517,7 +6517,7 @@
     "preview": {
       "file": "/previews/landcover-2025-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/landcover-2025-r7.svg"
+      "thumb": "/previews/thumbs/landcover-2025-r7.webp"
     },
     "fields": [
       {
@@ -6623,7 +6623,7 @@
     "preview": {
       "file": "/previews/landslide-susceptibility-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/landslide-susceptibility-r7.svg"
+      "thumb": "/previews/thumbs/landslide-susceptibility-r7.webp"
     },
     "fields": [
       {
@@ -6744,7 +6744,7 @@
     "preview": {
       "file": "/previews/lawin-patrol-routes-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/lawin-patrol-routes-r7.svg"
+      "thumb": "/previews/thumbs/lawin-patrol-routes-r7.webp"
     },
     "fields": [
       {
@@ -6869,7 +6869,7 @@
     "preview": {
       "file": "/previews/legislative-districts-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/legislative-districts-r7.svg"
+      "thumb": "/previews/thumbs/legislative-districts-r7.webp"
     },
     "fields": [
       {
@@ -6939,7 +6939,7 @@
     "preview": {
       "file": "/previews/locally-mpa-network-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/locally-mpa-network-r7.svg"
+      "thumb": "/previews/thumbs/locally-mpa-network-r7.webp"
     },
     "fields": [
       {
@@ -7079,7 +7079,7 @@
     "preview": {
       "file": "/previews/major-river-basins-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/major-river-basins-r7.svg"
+      "thumb": "/previews/thumbs/major-river-basins-r7.webp"
     },
     "fields": [
       {
@@ -7174,7 +7174,7 @@
     "preview": {
       "file": "/previews/mangroves-cmemp-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/mangroves-cmemp-r7.svg"
+      "thumb": "/previews/thumbs/mangroves-cmemp-r7.webp"
     },
     "fields": [
       {
@@ -7339,7 +7339,7 @@
     "preview": {
       "file": "/previews/mpa-network-cmemp-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/mpa-network-cmemp-r7.svg"
+      "thumb": "/previews/thumbs/mpa-network-cmemp-r7.webp"
     },
     "fields": [
       {
@@ -7514,7 +7514,7 @@
     "preview": {
       "file": "/previews/mpa-network-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/mpa-network-r7.svg"
+      "thumb": "/previews/thumbs/mpa-network-r7.webp"
     },
     "fields": [
       {
@@ -7674,7 +7674,7 @@
     "preview": {
       "file": "/previews/mpsa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/mpsa-r7.svg"
+      "thumb": "/previews/thumbs/mpsa-r7.webp"
     },
     "fields": [
       {
@@ -7824,7 +7824,7 @@
     "preview": {
       "file": "/previews/municipal-water-boundaries-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/municipal-water-boundaries-r7.svg"
+      "thumb": "/previews/thumbs/municipal-water-boundaries-r7.webp"
     },
     "fields": [
       {
@@ -7924,7 +7924,7 @@
     "preview": {
       "file": "/previews/nipas-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/nipas-r7.svg"
+      "thumb": "/previews/thumbs/nipas-r7.webp"
     },
     "fields": [
       {
@@ -8106,7 +8106,7 @@
     "preview": {
       "file": "/previews/open-buildings-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/open-buildings-r7.svg"
+      "thumb": "/previews/thumbs/open-buildings-r7.webp"
     },
     "fields": [
       {
@@ -8176,7 +8176,7 @@
     "preview": {
       "file": "/previews/other-projects-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/other-projects-r7.svg"
+      "thumb": "/previews/thumbs/other-projects-r7.webp"
     },
     "fields": [
       {
@@ -8341,7 +8341,7 @@
     "preview": {
       "file": "/previews/philippines-eez.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/philippines-eez.svg"
+      "thumb": "/previews/thumbs/philippines-eez.webp"
     },
     "fields": [
       {
@@ -8566,7 +8566,7 @@
     "preview": {
       "file": "/previews/potential-investment-areas-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/potential-investment-areas-r7.svg"
+      "thumb": "/previews/thumbs/potential-investment-areas-r7.webp"
     },
     "fields": [
       {
@@ -8716,7 +8716,7 @@
     "preview": {
       "file": "/previews/proclaimed-watersheds-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/proclaimed-watersheds-r7.svg"
+      "thumb": "/previews/thumbs/proclaimed-watersheds-r7.webp"
     },
     "fields": [
       {
@@ -8855,7 +8855,7 @@
     "preview": {
       "file": "/previews/production-forest-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/production-forest-r7.svg"
+      "thumb": "/previews/thumbs/production-forest-r7.webp"
     },
     "fields": [
       {
@@ -8940,7 +8940,7 @@
     "preview": {
       "file": "/previews/production-protection-forest-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/production-protection-forest-r7.svg"
+      "thumb": "/previews/thumbs/production-protection-forest-r7.webp"
     },
     "fields": [
       {
@@ -9061,7 +9061,7 @@
     "preview": {
       "file": "/previews/protected-areas-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/protected-areas-r7.svg"
+      "thumb": "/previews/thumbs/protected-areas-r7.webp"
     },
     "fields": [
       {
@@ -9240,7 +9240,7 @@
     "preview": {
       "file": "/previews/protection-forest-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/protection-forest-r7.svg"
+      "thumb": "/previews/thumbs/protection-forest-r7.webp"
     },
     "fields": [
       {
@@ -9328,7 +9328,7 @@
     "preview": {
       "file": "/previews/provincial-boundaries-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/provincial-boundaries-r7.svg"
+      "thumb": "/previews/thumbs/provincial-boundaries-r7.webp"
     },
     "fields": [
       {
@@ -9412,7 +9412,7 @@
     "preview": {
       "file": "/previews/r7-coastline.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/r7-coastline.svg"
+      "thumb": "/previews/thumbs/r7-coastline.webp"
     },
     "fields": [
       {
@@ -9483,7 +9483,7 @@
     "preview": {
       "file": "/previews/region-7-boundary.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/region-7-boundary.svg"
+      "thumb": "/previews/thumbs/region-7-boundary.webp"
     },
     "fields": [
       {
@@ -9603,7 +9603,7 @@
     "preview": {
       "file": "/previews/river-network-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/river-network-r7.svg"
+      "thumb": "/previews/thumbs/river-network-r7.webp"
     },
     "fields": [
       {
@@ -9708,7 +9708,7 @@
     "preview": {
       "file": "/previews/sapa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/sapa-r7.svg"
+      "thumb": "/previews/thumbs/sapa-r7.webp"
     },
     "fields": [
       {
@@ -9898,7 +9898,7 @@
     "preview": {
       "file": "/previews/seagrass-cmemp-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/seagrass-cmemp-r7.svg"
+      "thumb": "/previews/thumbs/seagrass-cmemp-r7.webp"
     },
     "fields": [
       {
@@ -10063,7 +10063,7 @@
     "preview": {
       "file": "/previews/seed-production-areas-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/seed-production-areas-r7.svg"
+      "thumb": "/previews/thumbs/seed-production-areas-r7.webp"
     },
     "fields": [
       {
@@ -10223,7 +10223,7 @@
     "preview": {
       "file": "/previews/sinkhole-alcoy.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/sinkhole-alcoy.svg"
+      "thumb": "/previews/thumbs/sinkhole-alcoy.webp"
     },
     "fields": [
       {
@@ -10298,7 +10298,7 @@
     "preview": {
       "file": "/previews/sinkhole-dalaguete.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/sinkhole-dalaguete.svg"
+      "thumb": "/previews/thumbs/sinkhole-dalaguete.webp"
     },
     "fields": [
       {
@@ -10388,7 +10388,7 @@
     "preview": {
       "file": "/previews/sinkhole-moalboal.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/sinkhole-moalboal.svg"
+      "thumb": "/previews/thumbs/sinkhole-moalboal.webp"
     },
     "fields": [
       {
@@ -10458,7 +10458,7 @@
     "preview": {
       "file": "/previews/slope-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/slope-r7.svg"
+      "thumb": "/previews/thumbs/slope-r7.webp"
     },
     "fields": [
       {
@@ -10532,7 +10532,7 @@
     "preview": {
       "file": "/previews/soil-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/soil-r7.svg"
+      "thumb": "/previews/thumbs/soil-r7.webp"
     },
     "fields": [
       {
@@ -10632,7 +10632,7 @@
     "preview": {
       "file": "/previews/swcm-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/swcm-r7.svg"
+      "thumb": "/previews/thumbs/swcm-r7.webp"
     },
     "fields": [
       {
@@ -10787,7 +10787,7 @@
     "preview": {
       "file": "/previews/tenurial-cadc-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-cadc-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-cadc-r7.webp"
     },
     "fields": [
       {
@@ -10957,7 +10957,7 @@
     "preview": {
       "file": "/previews/tenurial-cbfma-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-cbfma-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-cbfma-r7.webp"
     },
     "fields": [
       {
@@ -11151,7 +11151,7 @@
     "preview": {
       "file": "/previews/tenurial-fleg-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-fleg-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-fleg-r7.webp"
     },
     "fields": [
       {
@@ -11330,7 +11330,7 @@
     "preview": {
       "file": "/previews/tenurial-flma-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-flma-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-flma-r7.webp"
     },
     "fields": [
       {
@@ -11499,7 +11499,7 @@
     "preview": {
       "file": "/previews/tenurial-ifma-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-ifma-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-ifma-r7.webp"
     },
     "fields": [
       {
@@ -11668,7 +11668,7 @@
     "preview": {
       "file": "/previews/tenurial-moa-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-moa-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-moa-r7.webp"
     },
     "fields": [
       {
@@ -11842,7 +11842,7 @@
     "preview": {
       "file": "/previews/tenurial-sifma-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-sifma-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-sifma-r7.webp"
     },
     "fields": [
       {
@@ -12012,7 +12012,7 @@
     "preview": {
       "file": "/previews/tenurial-slup-2014-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-slup-2014-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-slup-2014-r7.webp"
     },
     "fields": [
       {
@@ -12182,7 +12182,7 @@
     "preview": {
       "file": "/previews/tenurial-slup-2015-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-slup-2015-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-slup-2015-r7.webp"
     },
     "fields": [
       {
@@ -12356,7 +12356,7 @@
     "preview": {
       "file": "/previews/tenurial-splula-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-splula-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-splula-r7.webp"
     },
     "fields": [
       {
@@ -12525,7 +12525,7 @@
     "preview": {
       "file": "/previews/tenurial-tfla-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/tenurial-tfla-r7.svg"
+      "thumb": "/previews/thumbs/tenurial-tfla-r7.webp"
     },
     "fields": [
       {
@@ -12695,7 +12695,7 @@
     "preview": {
       "file": "/previews/urban-green-spaces-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/urban-green-spaces-r7.svg"
+      "thumb": "/previews/thumbs/urban-green-spaces-r7.webp"
     },
     "fields": [
       {
@@ -12835,7 +12835,7 @@
     "preview": {
       "file": "/previews/visayan-sea-fishponds.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/visayan-sea-fishponds.svg"
+      "thumb": "/previews/thumbs/visayan-sea-fishponds.webp"
     },
     "fields": [
       {
@@ -12935,7 +12935,7 @@
     "preview": {
       "file": "/previews/visayan-sea-mangroves.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/visayan-sea-mangroves.svg"
+      "thumb": "/previews/thumbs/visayan-sea-mangroves.webp"
     },
     "fields": [
       {
@@ -13035,7 +13035,7 @@
     "preview": {
       "file": "/previews/visayan-sea-sanctuaries.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/visayan-sea-sanctuaries.svg"
+      "thumb": "/previews/thumbs/visayan-sea-sanctuaries.webp"
     },
     "fields": [
       {
@@ -13120,7 +13120,7 @@
     "preview": {
       "file": "/previews/water-districts-ph.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/water-districts-ph.svg"
+      "thumb": "/previews/thumbs/water-districts-ph.webp"
     },
     "fields": [
       {
@@ -13250,7 +13250,7 @@
     "preview": {
       "file": "/previews/watershed-acar.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-acar.svg"
+      "thumb": "/previews/thumbs/watershed-acar.webp"
     },
     "fields": [
       {
@@ -13330,7 +13330,7 @@
     "preview": {
       "file": "/previews/watershed-alegria-badian.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-alegria-badian.svg"
+      "thumb": "/previews/thumbs/watershed-alegria-badian.webp"
     },
     "fields": [
       {
@@ -13410,7 +13410,7 @@
     "preview": {
       "file": "/previews/watershed-carood.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-carood.svg"
+      "thumb": "/previews/thumbs/watershed-carood.webp"
     },
     "fields": [
       {
@@ -13490,7 +13490,7 @@
     "preview": {
       "file": "/previews/watershed-ccrb.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-ccrb.svg"
+      "thumb": "/previews/thumbs/watershed-ccrb.webp"
     },
     "fields": [
       {
@@ -13560,7 +13560,7 @@
     "preview": {
       "file": "/previews/watershed-ilog-hilabangan.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-ilog-hilabangan.svg"
+      "thumb": "/previews/thumbs/watershed-ilog-hilabangan.webp"
     },
     "fields": [
       {
@@ -13640,7 +13640,7 @@
     "preview": {
       "file": "/previews/watershed-instrumentation-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-instrumentation-r7.svg"
+      "thumb": "/previews/thumbs/watershed-instrumentation-r7.webp"
     },
     "fields": [
       {
@@ -13790,7 +13790,7 @@
     "preview": {
       "file": "/previews/watershed-loboc.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-loboc.svg"
+      "thumb": "/previews/thumbs/watershed-loboc.webp"
     },
     "fields": [
       {
@@ -13870,7 +13870,7 @@
     "preview": {
       "file": "/previews/watershed-wahig-inabanga.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watershed-wahig-inabanga.svg"
+      "thumb": "/previews/thumbs/watershed-wahig-inabanga.webp"
     },
     "fields": [
       {
@@ -13946,7 +13946,7 @@
     "preview": {
       "file": "/previews/watersheds-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/watersheds-r7.svg"
+      "thumb": "/previews/thumbs/watersheds-r7.webp"
     },
     "fields": [
       {
@@ -14026,7 +14026,7 @@
     "preview": {
       "file": "/previews/wood-processing-plants-r7.geojson",
       "kind": "vector",
-      "thumb": "/previews/thumbs/wood-processing-plants-r7.svg"
+      "thumb": "/previews/thumbs/wood-processing-plants-r7.webp"
     },
     "fields": [
       {

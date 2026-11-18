@@ -1,0 +1,705 @@
+{
+  "generatedAt": "2026-11-16T08:27:45.422Z",
+  "layers": [
+    {
+      "slug": "region-7-boundary",
+      "file": "/previews/region-7-boundary.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "provincial-boundaries-r7",
+      "file": "/previews/provincial-boundaries-r7.geojson",
+      "features": 4,
+      "sourceFeatures": 4,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "city-municipal-boundaries-r7",
+      "file": "/previews/city-municipal-boundaries-r7.geojson",
+      "features": 132,
+      "sourceFeatures": 132,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "barangay-boundaries-r7",
+      "file": "/previews/barangay-boundaries-r7.geojson",
+      "features": 2312,
+      "sourceFeatures": 2312,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "legislative-districts-r7",
+      "file": "/previews/legislative-districts-r7.geojson",
+      "features": 14,
+      "sourceFeatures": 14,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "municipal-water-boundaries-r7",
+      "file": "/previews/municipal-water-boundaries-r7.geojson",
+      "features": 180,
+      "sourceFeatures": 185,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "10k-map-index-r7",
+      "file": "/previews/10k-map-index-r7.geojson",
+      "features": 729,
+      "sourceFeatures": 729,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "landcover-2025-r7",
+      "file": "/previews/landcover-2025-r7.geojson",
+      "features": 11,
+      "sourceFeatures": 50224,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "landcover-2015-r7",
+      "file": "/previews/landcover-2015-r7.geojson",
+      "features": 12,
+      "sourceFeatures": 30136,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "landcover-2010-r7",
+      "file": "/previews/landcover-2010-r7.geojson",
+      "features": 14,
+      "sourceFeatures": 6866,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "forest-cover-2003-r7",
+      "file": "/previews/forest-cover-2003-r7.geojson",
+      "features": 14,
+      "sourceFeatures": 1171,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "forest-cover-2020-r7",
+      "file": "/previews/forest-cover-2020-r7.geojson",
+      "features": 7,
+      "sourceFeatures": 2965,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "production-forest-r7",
+      "file": "/previews/production-forest-r7.geojson",
+      "features": 933,
+      "sourceFeatures": 933,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "protection-forest-r7",
+      "file": "/previews/protection-forest-r7.geojson",
+      "features": 933,
+      "sourceFeatures": 933,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "production-protection-forest-r7",
+      "file": "/previews/production-protection-forest-r7.geojson",
+      "features": 8,
+      "sourceFeatures": 8,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "slope-r7",
+      "file": "/previews/slope-r7.geojson",
+      "features": 7,
+      "sourceFeatures": 2557,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "soil-r7",
+      "file": "/previews/soil-r7.geojson",
+      "features": 35,
+      "sourceFeatures": 35,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "climate-r7",
+      "file": "/previews/climate-r7.geojson",
+      "features": 2,
+      "sourceFeatures": 252,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "geology-r7",
+      "file": "/previews/geology-r7.geojson",
+      "features": 1356,
+      "sourceFeatures": 1358,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "erosion-r7",
+      "file": "/previews/erosion-r7.geojson",
+      "features": 955,
+      "sourceFeatures": 955,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watersheds-r7",
+      "file": "/previews/watersheds-r7.geojson",
+      "features": 296,
+      "sourceFeatures": 296,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "major-river-basins-r7",
+      "file": "/previews/major-river-basins-r7.geojson",
+      "features": 38,
+      "sourceFeatures": 38,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "critical-watersheds-r7",
+      "file": "/previews/critical-watersheds-r7.geojson",
+      "features": 10,
+      "sourceFeatures": 10,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "proclaimed-watersheds-r7",
+      "file": "/previews/proclaimed-watersheds-r7.geojson",
+      "features": 7,
+      "sourceFeatures": 7,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "river-network-r7",
+      "file": "/previews/river-network-r7.geojson",
+      "features": 13459,
+      "sourceFeatures": 13459,
+      "geometry": "polyline"
+    },
+    {
+      "slug": "inland-wetlands-r7",
+      "file": "/previews/inland-wetlands-r7.geojson",
+      "features": 41,
+      "sourceFeatures": 41,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-acar",
+      "file": "/previews/watershed-acar.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-alegria-badian",
+      "file": "/previews/watershed-alegria-badian.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-carood",
+      "file": "/previews/watershed-carood.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-ccrb",
+      "file": "/previews/watershed-ccrb.geojson",
+      "features": 4,
+      "sourceFeatures": 4,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-ilog-hilabangan",
+      "file": "/previews/watershed-ilog-hilabangan.geojson",
+      "features": 2,
+      "sourceFeatures": 2,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-loboc",
+      "file": "/previews/watershed-loboc.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "watershed-wahig-inabanga",
+      "file": "/previews/watershed-wahig-inabanga.geojson",
+      "features": 4,
+      "sourceFeatures": 4,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "water-districts-ph",
+      "file": "/previews/water-districts-ph.geojson",
+      "features": 847,
+      "sourceFeatures": 951,
+      "geometry": "point"
+    },
+    {
+      "slug": "18-major-river-basins-ph",
+      "file": "/previews/18-major-river-basins-ph.geojson",
+      "features": 18,
+      "sourceFeatures": 18,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "protected-areas-r7",
+      "file": "/previews/protected-areas-r7.geojson",
+      "features": 22,
+      "sourceFeatures": 22,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "cebu-protected-areas",
+      "file": "/previews/cebu-protected-areas.geojson",
+      "features": 6,
+      "sourceFeatures": 6,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "bohol-protected-areas",
+      "file": "/previews/bohol-protected-areas.geojson",
+      "features": 5,
+      "sourceFeatures": 5,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "nipas-r7",
+      "file": "/previews/nipas-r7.geojson",
+      "features": 127,
+      "sourceFeatures": 127,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "camotes-island-pls",
+      "file": "/previews/camotes-island-pls.geojson",
+      "features": 106,
+      "sourceFeatures": 106,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "bantayan-island-wilderness-area",
+      "file": "/previews/bantayan-island-wilderness-area.geojson",
+      "features": 201,
+      "sourceFeatures": 203,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "bantayan-proposed-zoning",
+      "file": "/previews/bantayan-proposed-zoning.geojson",
+      "features": 10,
+      "sourceFeatures": 10,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "urban-green-spaces-r7",
+      "file": "/previews/urban-green-spaces-r7.geojson",
+      "features": 5,
+      "sourceFeatures": 5,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "classified-caves-r7",
+      "file": "/previews/classified-caves-r7.geojson",
+      "features": 118,
+      "sourceFeatures": 118,
+      "geometry": "point"
+    },
+    {
+      "slug": "tenurial-cbfma-r7",
+      "file": "/previews/tenurial-cbfma-r7.geojson",
+      "features": 491,
+      "sourceFeatures": 491,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-cadc-r7",
+      "file": "/previews/tenurial-cadc-r7.geojson",
+      "features": 7,
+      "sourceFeatures": 7,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-fleg-r7",
+      "file": "/previews/tenurial-fleg-r7.geojson",
+      "features": 26,
+      "sourceFeatures": 26,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-flma-r7",
+      "file": "/previews/tenurial-flma-r7.geojson",
+      "features": 13,
+      "sourceFeatures": 13,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-ifma-r7",
+      "file": "/previews/tenurial-ifma-r7.geojson",
+      "features": 9,
+      "sourceFeatures": 9,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-sifma-r7",
+      "file": "/previews/tenurial-sifma-r7.geojson",
+      "features": 22,
+      "sourceFeatures": 22,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-splula-r7",
+      "file": "/previews/tenurial-splula-r7.geojson",
+      "features": 15,
+      "sourceFeatures": 15,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-tfla-r7",
+      "file": "/previews/tenurial-tfla-r7.geojson",
+      "features": 2,
+      "sourceFeatures": 2,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-moa-r7",
+      "file": "/previews/tenurial-moa-r7.geojson",
+      "features": 11,
+      "sourceFeatures": 11,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-slup-2014-r7",
+      "file": "/previews/tenurial-slup-2014-r7.geojson",
+      "features": 127,
+      "sourceFeatures": 127,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "tenurial-slup-2015-r7",
+      "file": "/previews/tenurial-slup-2015-r7.geojson",
+      "features": 129,
+      "sourceFeatures": 129,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "cadt-r7",
+      "file": "/previews/cadt-r7.geojson",
+      "features": 2,
+      "sourceFeatures": 2,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "cutting-permit-areas-r7",
+      "file": "/previews/cutting-permit-areas-r7.geojson",
+      "features": 236,
+      "sourceFeatures": 236,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "cutting-permits-r7",
+      "file": "/previews/cutting-permits-r7.geojson",
+      "features": 4967,
+      "sourceFeatures": 5017,
+      "geometry": "point"
+    },
+    {
+      "slug": "mpsa-r7",
+      "file": "/previews/mpsa-r7.geojson",
+      "features": 40,
+      "sourceFeatures": 40,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "epsa-r7",
+      "file": "/previews/epsa-r7.geojson",
+      "features": 10,
+      "sourceFeatures": 10,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "ipsa-r7",
+      "file": "/previews/ipsa-r7.geojson",
+      "features": 26,
+      "sourceFeatures": 26,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "apsa-r7",
+      "file": "/previews/apsa-r7.geojson",
+      "features": 30,
+      "sourceFeatures": 30,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "ipa-r7",
+      "file": "/previews/ipa-r7.geojson",
+      "features": 18,
+      "sourceFeatures": 18,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "sapa-r7",
+      "file": "/previews/sapa-r7.geojson",
+      "features": 42,
+      "sourceFeatures": 42,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "engp-r7",
+      "file": "/previews/engp-r7.geojson",
+      "features": 6582,
+      "sourceFeatures": 6582,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "other-projects-r7",
+      "file": "/previews/other-projects-r7.geojson",
+      "features": 3908,
+      "sourceFeatures": 3908,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "potential-investment-areas-r7",
+      "file": "/previews/potential-investment-areas-r7.geojson",
+      "features": 821,
+      "sourceFeatures": 821,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "wood-processing-plants-r7",
+      "file": "/previews/wood-processing-plants-r7.geojson",
+      "features": 50,
+      "sourceFeatures": 50,
+      "geometry": "point"
+    },
+    {
+      "slug": "seed-production-areas-r7",
+      "file": "/previews/seed-production-areas-r7.geojson",
+      "features": 6,
+      "sourceFeatures": 6,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "clonal-nurseries-r7",
+      "file": "/previews/clonal-nurseries-r7.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "arboretum-r7",
+      "file": "/previews/arboretum-r7.geojson",
+      "features": 5,
+      "sourceFeatures": 5,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "swcm-r7",
+      "file": "/previews/swcm-r7.geojson",
+      "features": 96,
+      "sourceFeatures": 96,
+      "geometry": "point"
+    },
+    {
+      "slug": "watershed-instrumentation-r7",
+      "file": "/previews/watershed-instrumentation-r7.geojson",
+      "features": 9,
+      "sourceFeatures": 9,
+      "geometry": "point"
+    },
+    {
+      "slug": "forest-ranger-stations-r7",
+      "file": "/previews/forest-ranger-stations-r7.geojson",
+      "features": 10,
+      "sourceFeatures": 10,
+      "geometry": "point"
+    },
+    {
+      "slug": "denr-field-offices-r7",
+      "file": "/previews/denr-field-offices-r7.geojson",
+      "features": 15,
+      "sourceFeatures": 15,
+      "geometry": "point"
+    },
+    {
+      "slug": "bdfe-r7",
+      "file": "/previews/bdfe-r7.geojson",
+      "features": 280,
+      "sourceFeatures": 285,
+      "geometry": "point"
+    },
+    {
+      "slug": "lawin-patrol-routes-r7",
+      "file": "/previews/lawin-patrol-routes-r7.geojson",
+      "features": 1196,
+      "sourceFeatures": 1196,
+      "geometry": "polyline"
+    },
+    {
+      "slug": "cebu-firelines",
+      "file": "/previews/cebu-firelines.geojson",
+      "features": 6,
+      "sourceFeatures": 6,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "mangroves-cmemp-r7",
+      "file": "/previews/mangroves-cmemp-r7.geojson",
+      "features": 222,
+      "sourceFeatures": 222,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "corals-cmemp-r7",
+      "file": "/previews/corals-cmemp-r7.geojson",
+      "features": 32,
+      "sourceFeatures": 32,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "seagrass-cmemp-r7",
+      "file": "/previews/seagrass-cmemp-r7.geojson",
+      "features": 37,
+      "sourceFeatures": 37,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "mpa-network-cmemp-r7",
+      "file": "/previews/mpa-network-cmemp-r7.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "cmemp-bdfe-po-r7",
+      "file": "/previews/cmemp-bdfe-po-r7.geojson",
+      "features": 5,
+      "sourceFeatures": 5,
+      "geometry": "point"
+    },
+    {
+      "slug": "cmemp-water-quality-r7",
+      "file": "/previews/cmemp-water-quality-r7.geojson",
+      "features": 56,
+      "sourceFeatures": 56,
+      "geometry": "point"
+    },
+    {
+      "slug": "locally-mpa-network-r7",
+      "file": "/previews/locally-mpa-network-r7.geojson",
+      "features": 227,
+      "sourceFeatures": 227,
+      "geometry": "point"
+    },
+    {
+      "slug": "mpa-network-r7",
+      "file": "/previews/mpa-network-r7.geojson",
+      "features": 6,
+      "sourceFeatures": 6,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "visayan-sea-fishponds",
+      "file": "/previews/visayan-sea-fishponds.geojson",
+      "features": 92,
+      "sourceFeatures": 92,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "visayan-sea-mangroves",
+      "file": "/previews/visayan-sea-mangroves.geojson",
+      "features": 580,
+      "sourceFeatures": 581,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "visayan-sea-sanctuaries",
+      "file": "/previews/visayan-sea-sanctuaries.geojson",
+      "features": 54,
+      "sourceFeatures": 54,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "philippines-eez",
+      "file": "/previews/philippines-eez.geojson",
+      "features": 1,
+      "sourceFeatures": 1,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "r7-coastline",
+      "file": "/previews/r7-coastline.geojson",
+      "features": 70,
+      "sourceFeatures": 70,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "asian-waterbird-census-r7",
+      "file": "/previews/asian-waterbird-census-r7.geojson",
+      "features": 26,
+      "sourceFeatures": 26,
+      "geometry": "point"
+    },
+    {
+      "slug": "bams-ccpl",
+      "file": "/previews/bams-ccpl.geojson",
+      "features": 4305,
+      "sourceFeatures": 4305,
+      "geometry": "point"
+    },
+    {
+      "slug": "flood-susceptibility-r7",
+      "file": "/previews/flood-susceptibility-r7.geojson",
+      "features": 4,
+      "sourceFeatures": 3332,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "landslide-susceptibility-r7",
+      "file": "/previews/landslide-susceptibility-r7.geojson",
+      "features": 5,
+      "sourceFeatures": 6773,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "sinkhole-alcoy",
+      "file": "/previews/sinkhole-alcoy.geojson",
+      "features": 211,
+      "sourceFeatures": 211,
+      "geometry": "point"
+    },
+    {
+      "slug": "sinkhole-dalaguete",
+      "file": "/previews/sinkhole-dalaguete.geojson",
+      "features": 919,
+      "sourceFeatures": 919,
+      "geometry": "point"
+    },
+    {
+      "slug": "sinkhole-moalboal",
+      "file": "/previews/sinkhole-moalboal.geojson",
+      "features": 306,
+      "sourceFeatures": 306,
+      "geometry": "point"
+    },
+    {
+      "slug": "earthquake-r7",
+      "file": "/previews/earthquake-r7.geojson",
+      "features": 2008,
+      "sourceFeatures": 2008,
+      "geometry": "polygon"
+    },
+    {
+      "slug": "faultline-r7",
+      "file": "/previews/faultline-r7.geojson",
+      "features": 179,
+      "sourceFeatures": 179,
+      "geometry": "polyline"
+    }
+  ]
+}

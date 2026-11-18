@@ -32,6 +32,7 @@ public/previews/*
 !public/previews/manifest.json
 !public/previews/*.geojson
 !public/previews/thumbs/
+public/previews/thumbs/*.svg
 !public/previews/thumbs/*.webp
 !public/previews/lcm-display/
 !public/previews/lcm-display/*.geojson
